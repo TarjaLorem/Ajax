@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../js/jquery-3.2.1.js"></script>
     <script src="../js/underscore-min.js"></script>
-        <script src="script.js"></script>
 
     <title>Ajax</title>
 </head>
 
 <body>
-    <button class="add-img">Load image</button>
-    <div class="loading"></div>
+    <button onclick="getImages()">Load image</button>
+    <div id="images"></div>
+    <style type="text/css">
+		#images img {
+			height: 50px;
+			margin: 3px;
+		}
+	</style>
+           <script src="script.js"></script>
+
     </body>
 
 </html>
