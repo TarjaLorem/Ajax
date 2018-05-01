@@ -1,7 +1,7 @@
 //$(document).ready(function () {
 
     var ajaxhttp = new XMLHttpRequest();
-    var url = "https://www.reddit.com/r/pics.json";
+    var url = "https://www.reddit.com/r/pics";
     ajaxhttp.open("GET", url, true);
     ajaxhttp.setRequestHeader("content-type", "application/json");
     ajaxhttp.onreadystatechange = function () {
